@@ -3,12 +3,12 @@ from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
-from kivy.config import Config
+#from kivy.config import Config
 
 
-Config.set('graphics','resizable',0)
-Config.set('graphics','width',600)
-Config.set('graphics','height',400)
+#Config.set('graphics','resizable',0)
+#Config.set('graphics','width',600)
+#Config.set('graphics','height',400)
 
 class MyApplication(App):
 
