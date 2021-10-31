@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Mortgage Calculator
+title = Kivy Test App
 
 # (str) Package name
-package.name = mortgagecalculator
+package.name = kivytestapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiseplat
+package.domain = igorbelskiy.com
 
 # (str) Source code where the main.py live
 source.dir = .
