@@ -17,7 +17,7 @@ class MyApplication(App):
   
 
     def click_2(self, instance):
-        self.my_label.text='А вот и нихуя!'
+        self.my_label.text='Заебали материться!'
   
 
     def build(self):
