@@ -13,23 +13,23 @@ from kivy.uix.gridlayout import GridLayout
 class MyApplication(App):
 
     def click(self, instance):
-        self.my_label.text='Ой бля!'
+        self.my_label.text='1'
   
 
     def click_2(self, instance):
-        self.my_label.text='Заебали материться!'
+        self.my_label.text='2'
   
 
     def build(self):
         but_together = BoxLayout()
         my_grid = GridLayout(cols=1)
 
-        my_but = Button(text='Жми уже ёпта!', 
+        my_but = Button(text='Кнопка 1', 
                         font_size=20, 
                         background_color='cyan', 
                         on_press=self.click)
         
-        think_of_name = Button(text='Съебал быстро от сюда!',
+        think_of_name = Button(text='Кнопка 2',
                                font_size=20, 
                                background_color='cyan',
                                on_press=self.click_2)
